@@ -32,7 +32,7 @@ public class TelaPrincipal extends javax.swing.JFrame {
         BtnAcessaClientes = new javax.swing.JButton();
         BtnFechar = new javax.swing.JButton();
         BtnAcessaProdutos = new javax.swing.JButton();
-        BtnAcessaVendas1 = new javax.swing.JButton();
+        BtnAcessaVendas = new javax.swing.JButton();
 
         jButton2.setText("jButton1");
 
@@ -61,10 +61,10 @@ public class TelaPrincipal extends javax.swing.JFrame {
             }
         });
 
-        BtnAcessaVendas1.setText("Vendas");
-        BtnAcessaVendas1.addActionListener(new java.awt.event.ActionListener() {
+        BtnAcessaVendas.setText("Vendas");
+        BtnAcessaVendas.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                BtnAcessaVendas1ActionPerformed(evt);
+                BtnAcessaVendasActionPerformed(evt);
             }
         });
 
@@ -84,7 +84,7 @@ public class TelaPrincipal extends javax.swing.JFrame {
                         .addComponent(BtnAcessaProdutos, javax.swing.GroupLayout.PREFERRED_SIZE, 275, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 14, Short.MAX_VALUE)
                         .addComponent(BtnAcessaClientes, javax.swing.GroupLayout.PREFERRED_SIZE, 275, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addComponent(BtnAcessaVendas1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addComponent(BtnAcessaVendas, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addContainerGap())
         );
         layout.setVerticalGroup(
@@ -97,7 +97,7 @@ public class TelaPrincipal extends javax.swing.JFrame {
                     .addComponent(BtnAcessaProdutos, javax.swing.GroupLayout.PREFERRED_SIZE, 202, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(BtnAcessaClientes, javax.swing.GroupLayout.PREFERRED_SIZE, 202, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 19, Short.MAX_VALUE)
-                .addComponent(BtnAcessaVendas1, javax.swing.GroupLayout.PREFERRED_SIZE, 91, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(BtnAcessaVendas, javax.swing.GroupLayout.PREFERRED_SIZE, 91, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
                 .addComponent(BtnFechar, javax.swing.GroupLayout.PREFERRED_SIZE, 91, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap())
@@ -118,9 +118,9 @@ public class TelaPrincipal extends javax.swing.JFrame {
         this.dispose();
     }//GEN-LAST:event_BtnFecharActionPerformed
 
-    private void BtnAcessaVendas1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BtnAcessaVendas1ActionPerformed
+    private void BtnAcessaVendasActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BtnAcessaVendasActionPerformed
         new TelaVenda().setVisible(true);
-    }//GEN-LAST:event_BtnAcessaVendas1ActionPerformed
+    }//GEN-LAST:event_BtnAcessaVendasActionPerformed
 
     /**
      * @param args the command line arguments
@@ -160,7 +160,7 @@ public class TelaPrincipal extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton BtnAcessaClientes;
     private javax.swing.JButton BtnAcessaProdutos;
-    private javax.swing.JButton BtnAcessaVendas1;
+    private javax.swing.JButton BtnAcessaVendas;
     private javax.swing.JButton BtnFechar;
     private javax.swing.JButton jButton2;
     private javax.swing.JLabel jLabel1;

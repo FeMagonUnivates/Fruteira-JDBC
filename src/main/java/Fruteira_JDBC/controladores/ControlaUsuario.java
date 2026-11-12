@@ -10,6 +10,7 @@ public class ControlaUsuario {
 
     private final UsuarioDAO usuarioDAO = new UsuarioDAOJdbc();
 
+    
     public Usuario autenticar(String login, String senha) {
         try {
             return usuarioDAO.autenticar(login, senha);
@@ -21,6 +22,7 @@ public class ControlaUsuario {
             return null;
         }
     }
+
 
     public void salvar(String nome, String login, String senha) {
         try {

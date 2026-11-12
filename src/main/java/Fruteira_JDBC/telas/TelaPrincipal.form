@@ -44,7 +44,7 @@
                       <EmptySpace pref="14" max="32767" attributes="0"/>
                       <Component id="BtnAcessaClientes" min="-2" pref="275" max="-2" attributes="0"/>
                   </Group>
-                  <Component id="BtnAcessaVendas1" alignment="0" max="32767" attributes="0"/>
+                  <Component id="BtnAcessaVendas" alignment="0" max="32767" attributes="0"/>
               </Group>
               <EmptySpace max="-2" attributes="0"/>
           </Group>
@@ -61,7 +61,7 @@
                   <Component id="BtnAcessaClientes" alignment="3" min="-2" pref="202" max="-2" attributes="0"/>
               </Group>
               <EmptySpace pref="19" max="32767" attributes="0"/>
-              <Component id="BtnAcessaVendas1" min="-2" pref="91" max="-2" attributes="0"/>
+              <Component id="BtnAcessaVendas" min="-2" pref="91" max="-2" attributes="0"/>
               <EmptySpace type="separate" max="-2" attributes="0"/>
               <Component id="BtnFechar" min="-2" pref="91" max="-2" attributes="0"/>
               <EmptySpace max="-2" attributes="0"/>
@@ -99,12 +99,12 @@
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="BtnAcessaProdutosActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JButton" name="BtnAcessaVendas1">
+    <Component class="javax.swing.JButton" name="BtnAcessaVendas">
       <Properties>
         <Property name="text" type="java.lang.String" value="Vendas"/>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="BtnAcessaVendas1ActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="BtnAcessaVendasActionPerformed"/>
       </Events>
     </Component>
   </SubComponents>
